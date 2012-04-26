@@ -140,7 +140,7 @@ public class ClickerIMP implements ConsumerFrame{
 			socket.setKeepAlive(true);
 			reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 			writer = new PrintWriter(socket.getOutputStream(), true);
-			writer.println("frederis");
+			writer.println("frederis`/,default");
 			
 			writer.flush();
 			writer.println(getConsumptionString());
